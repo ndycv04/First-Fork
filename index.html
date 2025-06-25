@@ -6,18 +6,14 @@
   <title>First-Fork</title>
 
   <style>
-    .button{
-      font-size: 28px;
-      font-family: 'Helvetica', 'Times New Roman', sans-serif;
+    avatar.proportioned{
+      width: 300px;
+      height: auto;
     }
 
-    #b1{
-      background-color: black;
-      color: white;
-    }
-
-    #b2{
-      background-color: yellow;
+    avatar.ditorted{
+      width: 200px;
+      height: 400px;
     }
 
   </style>
@@ -25,8 +21,10 @@
 </head>
 
 <body>
-  <img src="https://images.pexels.com/photos/3974785/pexels-photo-3974785.jpeg" width="300px">
-  <img src="https://iso.500px.com/wp-content/uploads/2016/02/stock-photo-141092249.jpg" width="300px">
+  <img class="avatar proportioned" src="https://github.com/TheOdinProject/css-exercises/blob/main/foundations/intro-to-css/04-chaining-selectors/solution/images/pexels-katho-mutodo-8434791.jpg">
+  <img class= "avatar distorted" src="https://github.com/TheOdinProject/css-exercises/blob/main/foundations/intro-to-css/04-chaining-selectors/solution/images/pexels-andrea-piacquadio-3777931.jpg">
+  <img class="original proportioned" src="https://github.com/TheOdinProject/css-exercises/blob/main/foundations/intro-to-css/04-chaining-selectors/solution/images/pexels-katho-mutodo-8434791.jpg">
+  <img class= "original distorted" src="https://github.com/TheOdinProject/css-exercises/blob/main/foundations/intro-to-css/04-chaining-selectors/solution/images/pexels-andrea-piacquadio-3777931.jpg">
 
   <button id="b2">No, Click Me!</button>
 </body>
