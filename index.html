@@ -4,22 +4,37 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <title>First-Fork</title>
-  <link href="styles.css" rel="stylesheet" type="text/css">
 
   <style>
-    p{
-      background-color: green;
-      color: white;
-      font-size: 18px;
+    .odd{
+      background-color: pink;
+      font-family: Verdana, DejaVu Sans, sans-serif;
+    }
+
+    #second{
+      color: blue;
+      font-size: 36px;
+    }
+
+    #third{
+      font-size: 24px;
+    }
+
+    #fourth{
+      background-color: light green;
+      font-size: 24px;
+      font-weight: bold;
     }
   </style>
   
 </head>
 
 <body>
-  <div>Style me via the external method!</div>
-  <p>I would like to be styled with the internal method, please.</p>
-  <button style="background-color:orange; font-size:18px;">Inline Method</button>
+  <div class="odd">Number 1 - I'm a class!</div>
+  <div id="second">Number 2 - I'm one ID.</div>
+  <div class="odd" id="third">Number 3 - I'm a class, but cooler!</div>
+  <div id="fourth">Number 4 - I'm another ID.</div>
+  <div class="odd">Number 5 - I'm a class!</div>
 
 </body>
 </html>
